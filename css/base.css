@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --white: #fff;
+    --bg: #E5E5E5;
+    --CR: 'CR', sans-serif;
+    --CB: 'CB', sans-serif;
+    --bgpink: 'linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%)', '#CF0063;';
+}
+
+body {
+    background: var();
+}
+
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
