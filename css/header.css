@@ -1,0 +1,142 @@
+.header {
+    height: 800px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    ;
+}
+
+.navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+    padding-bottom: 48px;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar__list-item-link {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+
+}
+
+
+
+
+
+.banner__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__desc-h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-top: 178px;
+}
+
+.banner__desc-p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 677px;
+}
+
+.banner__desc-btn {
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.banner__img img {
+    max-width: 652px;
+    width: 100%;
+}
+
+.banner__img {
+    width: 100%;
+}
+
+@media screen and (max-width:930px) {
+    .banner__wrap {
+        flex-direction: column;
+    }
+
+    .banner__desc-h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .banner__desc-p {
+        font-size: 13px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .banner__desc-btn {
+        width: 100%;
+    }
+
+    .banner__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner__img img {
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar__wrap {
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+    .banner__desc-btn {
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .navbar__list {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner__desc-p {
+        font-size: 12px;
+    }
+    .banner__img img {
+        display: block;
+        max-width: 250px;
+        width: 100%;
+        margin: 40px auto;
+    }
+    .banner__desc-btn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
