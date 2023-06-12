@@ -9,12 +9,12 @@
 :root {
     --white: #fff;
     --bg: #E5E5E5;
-    --CR: 'CR', sans-serif;
-    --CB: 'CB', sans-serif;
+    --GR: 'GR', sans-serif;
+    --GB: 'GB', sans-serif;
 }
 
 body {
-    font-family: var(--CR);
+    font-family: var(--GR);
     color: var(--white);
 }
 

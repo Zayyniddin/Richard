@@ -1,0 +1,40 @@
+.report {
+    background: #1B1B1B;
+    height: auto;
+    padding: 100px 0px 0px 0px;
+}
+
+.report__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.report__content-p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A8A8A8;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.report__content-h2 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    max-width: 607px;
+    width: 100%;
+    text-align: center;
+}
+
+.report__content-img {
+    width: 100%;
+}
+
+@media screen and (max-width:625px) {
+    .report__content-h2 {
+        font-size: 30px;
+    }
+}
