@@ -1,0 +1,38 @@
+.benefit {
+    margin-top: 160px;
+}
+
+.benefit__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 61px;
+}
+
+.benefit__type-h2 {
+    font-family: var(--GB);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#000000;
+    margin-top: 40px;
+}
+
+.benefit__type-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6b6b6b;
+    max-width: 371px;
+    width: 100%;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.benefit__type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

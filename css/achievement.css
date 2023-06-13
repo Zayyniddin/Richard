@@ -1,0 +1,32 @@
+.achievement {
+    margin-top: 163px;
+}
+
+.achievement__wrap  {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.achievement__number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.achievement__number-h2 {
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #333;
+}
+
+.achievement__number-p {
+    font-family: var(--GB);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+}
