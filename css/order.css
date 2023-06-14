@@ -123,16 +123,11 @@
     gap: 16px;
 }
 
-
-@media screen and (max-width:820px) {
+@media screen and (max-width:965px) {
     .order__item {
         flex-direction: column;
-        gap: 50px;
-    }
-    .order__item-desc-p,
-    .order__item-desc-h2,
-    .order__item-desc-info {
         text-align: center;
+        gap: 50px;
     }
 }
 
@@ -143,5 +138,14 @@
     .menu__last-p {
         font-size: 20px;
         margin-top: 50px;
+    }
+    .order__item-desc-h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .menu__last-joshua-p {
+        font-size: 13px;
     }
 }

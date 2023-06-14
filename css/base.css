@@ -31,6 +31,13 @@ body {
 .sponsor-img img{
     max-width: 1008px;
     width: 100%;
-   margin-top: 140px;
+   margin-top: 80px;
    padding: 0 20px;
+}
+
+
+.app img{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 60px;
 }
